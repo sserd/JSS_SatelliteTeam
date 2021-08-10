@@ -1,0 +1,719 @@
+
+<html>
+<head>
+	<style type="text/css">
+.heading{
+	font-size: 50px;
+}
+h1{
+	font-size: 400px;
+}
+.wrapper {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+}
+.hero-container{
+	color: whitesmoke;
+}
+.nav-14{
+    align-content: center;
+}
+.strike {
+    display: inline-block;
+    position: relative;
+    transition: all 0.5s cubic-bezier(.55, 0, .1, 1);
+}
+
+.strike:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    box-shadow: 0 1px rgba(255,255,255,0.6);
+    margin-top: -0.7em;
+    background: black;
+    transform-origin: center left;
+    animation: strikethrough 1s 0.5s cubic-bezier(.55, 0, .1, 1) 1;
+    transition: transform 0.5s cubic-bezier(.55, 0, .1, 1);
+}
+
+
+/* Little hover effect */
+
+.nav-14:hover {
+    color: rgba(200,0,0,1);
+    background:transparent;
+}
+
+.strike:hover:after {
+    transform: scaleX(0);
+    transform-origin: center right;
+}
+
+.img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  align-items: center;
+}	
+.section-tittle mb-4 text-left{
+	align-content: center;
+}
+h1 {
+  margin: 0;
+  height: 12vmin;
+  width: 120vmin;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+h1::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: -26vmin;
+  left: 29vmin;
+  width: 62vmin;
+  height: 62vmin;
+
+}
+
+em {
+  font-family: 'Josefin Sans', sans-serif;
+  color: currentColor;
+  font-size: 30vmin;
+  position: relative;
+  font-style: normal;
+  width: 20vmin;
+  text-align: center;
+}
+
+em.planet {
+  -webkit-animation: planet-rotate 4s linear ;
+  animation: planet-rotate 4s linear ;
+  position: relative;
+}
+
+em.planet::before {
+  content: "";
+  position: absolute;
+  top: -.5vmin;
+  left: 3.5vmin;
+  z-index: -1;
+  width: 13vmin;
+  height: 13vmin;
+
+  background: transparent;
+}
+
+em.planet.left {
+  -webkit-transform-origin: 40vmin 5vmin;
+  transform-origin: 40vmin 5vmin;
+}
+
+em.planet.right {
+  -webkit-transform-origin: -20vmin 5vmin;
+  transform-origin: -20vmin 5vmin;
+}
+
+@-webkit-keyframes planet-rotate {
+  to {
+    -webkit-transform: rotate(1turn);
+  }
+}
+
+@keyframes planet-rotate {
+  to {
+    transform: rotate(1turn);
+  }
+}
+</style>
+	   <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>About Us </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+     
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/slicknav.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/slick-theme.css">
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/megapack-style.css">
+        <link rel="stylesheet" href="css/megapack-responsive.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Poppins:200,300,400,500,500i,600,700,800&display=swap" rel="stylesheet">
+</head>
+<body style="background-image:url(img/background1.jpg);">
+	 <div style="background-image:url(img/slider/header.JPG)" id="header-sticky"class="bg-14 mobile-menu">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-xl-7 col-lg-7 col-md-7 col-sm-2">
+                        <div class="wrap_nav mainmenu">
+                            <ul class="nav-14">
+                                 <li class = "strike"><a href="homepage.html">Home</a>
+                                </li>
+                                <li class = "strike"><a href="about us.html">About Us</a></li>
+                                <li class = "strike"><a  href="gallery.html">Gallery</a></li>
+                                <li class = "strike"><a   href="https://satelliteteam.sserd.org/">Get Involved!</a>
+                                </li class = "strike">
+                                </li>
+                                <li class = "strike"><a  href="faq delta cosmos.html">FAQ</a></li>
+                                <li class = "strike"><a href="progress.html">3D Model</a>			
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+               
+                </div>
+            </div>
+        </div>
+<div class="logo logo-nav-25">
+        <a href="">
+            <img src="" alt="" />
+        </a>
+    </div>
+            
+            
+
+
+                            
+	
+	<div class="wrapper" > 
+		<div class="typing">
+				<h1 style= "color:whitesmoke;">
+  <em>A</em>
+  <em class="planet left">B</em>
+  <em>O</em>
+ <em>U</em>
+  <em class="planet right">T</em>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <em>U</em>
+  <em>S</em>
+</br>
+</h1>
+		</div></div>
+</div>
+</div>
+<div class="black-photograph-cont main-content photograph-main ">
+			<div class="container-fluid photos">
+				<div class="row align-items-stretch">
+					<div id="about" class="photograph corpo-abut finance section about-us-area">
+						<div class="container">
+							<div class="row">								
+								<div class="col-md-6 wrap-about ftco-animate py-md-5 pl-md-5">
+									<div class="section-tittle mb-4 text-left">
+										<h5 class="subheading-22">OUR </h5>
+										 <h2>STORY</h2>
+									</div>
+									<div class="tab">
+										<ul class="tabs active">
+											<li  class="current"><a class="active" href="#"> Our Mission</a></li>
+											<li class=""><a href="#"> Our app </a></li>
+											<li class=""><a href="#"> Future Plans </a></li>
+										</ul>
+										<div class="tab_content">
+											<div class="tabs_item" style="display: block;">
+												<p>Team Delta Cosmos deals with the primary objective of "Space Selfie" which is basically taking pictures from space. We plan to obtain this goal by launching a 3U cubesat to the Low Earth Orbit region(Polar Orbit) to access every part of the world. The satellite is going to help in montoring live images of any location requested by the users. The satellite can also play a part of Natural Disaster and Geospatial Monitoring while simultaneously being the eyes of the public users from space.
+
+												</p>
+											</div>
+											<div class="tabs_item" style="display: none;">
+												<p>To make it accessible to the public  we decided to make an app . An app is one of the best ways to incorprate the general public 
+The aim of the app is  to make the public experience the opportunity to travel to space and enjoying the 
+spectacular views by mimicking it using a satellite were they can take their own pictures from space ! 
+Enjoy spectacular views and connect with others all around the world on a budget ! Hopefully this app will make people realize how fragile our home planet is . 
+												</p>
+											</div>
+											<div class="tabs_item" style="display: none;">
+												<p>What will we do to launch the satellite soon? 
+
+In the future weeks Team delta Cosmos is going to find more sponsors.  As we want our satellite to be as perfect as possible. Next we will finish the front-end and the back end of the satellite. Then we will start our fundraisers to buy all the necessary components of the satellite. In our final stage we will start building  a real satellite.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="row mt-5 about-cuntr">
+										<div class="col-md d-flex topbar-corpor justify-content-center counter-wrap">
+											<div class="block-18">
+												<div class="text">
+													<h2 class="counter">1</h2>
+													<span>App</span>
+												</div>
+											</div>
+										</div>
+										<div class="col-md d-flex topbar-corpor justify-content-center counter-wrap">
+											<div class="block-18">
+												<div class="text">
+													<h2 class="counter">3</h2>
+													<span>Supervisors</span>
+												</div>
+											</div>
+										</div>
+										<div class="col-md d-flex topbar-corpor justify-content-center counter-wrap">
+											<div class="block-18">
+												<div class="text">
+													<h2 class="counter">9</h2>
+													<span>Team members</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6 wrap-about align-items-stretch d-flex">
+									<div class="img"style =  "display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  align-items: center;"
+	></div>
+	
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<span class="heading1">Meet Our Team </span>
+						<span class="tp-sep-hldr">
+							<span class="tp-sep-lne">
+							</span>
+						</span>					
+					</div>
+				</div>			
+			</div>
+			<div class="team-area">
+				<div class="team-warp">
+					<div class="team-five">
+						<div class="team-style-five">
+							<div class="container">
+								<div class="row">								
+									<div class="col-md-4 col-sm-12 team-items">
+										<div class="single-item text-center team-standard team-style-block">							
+											<div class="item">
+												<div class="thumb">
+													<img src="img/team/sujay.jpg" alt="Thumb">
+													<div class="social">
+														<ul>
+															<li><a href="https://facebook.com/sujaythespaceguy"><i class="fa fa-facebook"></i></a></li>
+															<li><a href="https://twitter.com/sujaysreedhar"><i class="fa fa-twitter"></i></a></li>
+															<li><a href="https://instagram.com/sujaysreedhar"><i class="fa fa-instagram"></i></a></li>
+														</ul>
+													</div>
+												</div>
+												<div class="info">
+													<h3>Sujay Sreedhar </h3>
+													<span>Co-Founder & Supervisor</span>
+													<p>
+													Hello there! I’m Sujay, Co-Founder and Chairman of Society for Space education Research and Development – SSERD.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 col-sm-12 team-items">
+										<div class="single-item text-center team-standard team-style-block">	
+											<div class="item">
+												<div class="thumb">
+													<img src="img/team/aditya.jpg" alt="Thumb">
+													<div class="social">
+														<ul></li>
+															<li><a href="https://instagram.com/ad_ty_aaa?utm_medium=copy_link"><i class="fa fa-instagram"></i></a></li>
+															<li><a href="https://www.linkedin.com/in/aditya-jayaprakash"><i class="fa fa-linkedin"></i></a></li>
+															<li><a href="adityajpd@gmail.com"><i class="fa fa-envelope"></i></a></li>
+														</ul>
+													</div>
+												</div>
+												<div class="info">
+													<h3>Aditya JP</h3>
+													<span>Co-supervisor</span>
+													<p>
+I was the Co Supervisor for Team Delta Cosmos, JSS Program 2021. I am an avid fan of the Space industry and very keen on how the sector is shaping up, especially for students from college and school. I gained immense knowledge during my time here in the JSS Program, and have been part of the Delta Cosmos team that is presently working on a CubeSat.													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4 col-sm-12 team-items">
+										<div class="single-item text-center team-standard team-style-block">	
+											<div class="item">
+												<div class="thumb">
+													<img src="img/team/dipti.jpg" alt="Thumb">
+													<div class="social">
+														<ul>
+															<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+															<li><a href=""><i class="fa fa-twitter"></i></a></li>
+															<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+															<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+														</ul>
+													</div>
+												</div>
+												<div class="info">
+													<h3>Dipti Ramesh </h3>
+													<span>Co-supervisor</span>
+													<p>
+													Pursuing final year in electrical and electronics engineering at Rajarajeshwari college of engineering, Bangalore. Space has fascinated me since my age of 3 with its infinite frontiers and unexplored cosmos. Astrophotography and Sky-watching being my greatest passion and Dancing and painting are my hobbies. On a lighter note you can say I walk, talk, eat, sleep..... Astronautics!
+	
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>								
+								</div>	
+							</div>	
+						</div>	
+					</div>	
+				</div>	
+			</div>
+			
+			<div class="tp-divid">
+				<div class="container">
+					<div class="tp-separator">
+						<span class="tp-sep-hldr">
+							<span class="tp-sep-lne">
+							</span>
+						</span>
+						<span class="tp-sep-hldr">
+							<span class="tp-sep-lne">
+							</span>
+						</span>					
+					</div>
+				</div>			
+			</div>
+			<div class="team-area">
+				<div class="team-warp">
+					<div class="team-three">
+						<div class="container-fluid">
+							<div class="row tp-padding">
+								<div class="col-lg-3 col-md-6">
+									<div class="team-style-three team-style-block">
+										<div class="team-img-3">
+											<img src="img/team/nidhi1.jpg" alt="">
+											<div class="social-icon-3">
+												<a href="https://instagram.com/nidhimayurika?utm_medium=copy_link"><i class="fa fa-instagram"></i></a>
+											</div>
+											<div class="hover-content-3">
+												<p style ="font-size: 10px;">I am AKNS Nidhi Mayurika, I am the team leader. I have supervised all the sub teams while working on attaining sponsorships for this ambitious project. My aspiration is to create more space enthusiasts, spread my little knowledge, learn from others and make the society more educationally healthy. My other aspiration is to create awareness about saving earth through a scientific approach before the Earth turns into hot molten ball due to our greed and ignorance in the name of economy and lifestyle.</p>
+											</div>
+										</div>
+										<div class="content-3">
+											<a href="#"><h3>AKNS Nidhi Mayurika</h3></a>
+											<p>Leader & member of sponsor team</p>
+										</div>
+
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">
+									<div class="team-style-three team-style-block">
+										<div class="team-img-3">
+											<img src="img/team/ugly3.jpeg" alt="">
+											<div class="social-icon-3">
+												
+												<a href="https://instagram.com/farida_ouf?utm_medium=copy_link
+"><i class="fa fa-instagram"></i></a>
+											</div>
+											<div class="hover-content-3">
+												<p style ="font-size: 12px;"> I am Farida 14 year old from Egypt ,the associate team leader,I have helped in organization of the teams while working on the development of the app to make this project accessible to the public while documenting our work . My ambition is to become an astrophysicist/astronaut to learn more about the universe to learn how we could survive and live farther into the universe while developing technologies for saving our home Earth using programming .</p>
+											</div>
+										</div>
+
+
+
+										<div class="content-3">
+											<a href="#"><h3>Farida Ouf </h3></a>
+											<p>Associate leader & member of dev team</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">
+									<div class="team-style-three team-style-block">
+										<div class="team-img-3">
+											<img src="img/team/spandan1.jpeg" alt="">
+											<div class="social-icon-3">
+												<a href="https://instagram.com/spandan.s.sahoo?utm_medium=copy_link"><i class="fa fa-instagram"></i></a>
+
+											</div>
+											<div class="hover-content-3">
+												<p style="font-size: 12px;">I am Spandan Shekhar Sahoo, a student aged 15 years old from Banglore, and I'm part of the Design Team and Camera Specialization Team. I have leaded the design team in the specific selection and criterias of cubesat components, as well as helped in the 3D CAD designing of the cubesat structure. I have also contributed significantly towards the research regarding the component units and necessities of the Optical Payload.</p>
+											</div>
+										</div>
+										<div class="content-3">
+											<a href="#"><h3>Spandan Shekhar Sahoo</h3></a>
+											<p>member of CAD & Design team </p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">
+									<div class="team-style-three team-style-block">
+										<div class="team-img-3">
+											<img src="img/team/vaahinee1.jpeg" alt="">
+											<div class="social-icon-3">
+												<a href="https://t.me/infinite856_h"><i class="fa fa-telegram"></i></a>
+											</div>
+											<div class="hover-content-3">
+												<p style="font-size: 12px;">Hello all! I am Vaahinee from Shivamogga. I'm a 17 year old student. I'm a part of design team , sponsorship team and camera system specialization team, and I have designed the outer structure of the satellite. I am working to find sponsorships for our project and also made some researches with the camera system specialization team and still being an enthusiast to learn more about space and contribute still more on  our project
+   " Have a good time"🦚<p>
+											</div>
+										</div>
+										<div class="content-3">
+											<a href="#"><h3>Vaahinee B </h3></a>
+											<p>member of CAD & Design&Sponsorship Team  </p>
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div>	
+					</div>	
+				</div>	
+			</div>
+			
+			<div class="team-area">
+				<div class="team-warp">
+					<div class="team-three">
+						<div class="container-fluid">
+							<div class="row tp-padding">
+								<div class="col-lg-3 col-md-6">
+									<div class="team-style-three team-style-block">
+										<div class="team-img-3">
+											<img src="img/team/g.jpg" alt="">
+											<div class="social-icon-3">
+
+											</div>
+											<div class="hover-content-3">
+												<p>Hi I am Gaurangi Gaur , I am 15 years , I live in Delhi, I am in design and camera system team !</p>
+											</div>
+										</div>
+										<div class="content-3">
+											<a href="#"><h3>Gaurangi Gaur</h3></a>
+											<p> member of CAD & Design Team </p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">
+									<div class="team-style-three team-style-block">
+										<div class="team-img-3">
+											<img src="img/team/vedant.jpg" alt="">
+											<div class="social-icon-3">
+
+											</div>
+											<div class="hover-content-3">
+												<p>Hi, I'm Vedant and I'm currently in 8th Grade, studying at Vibgyor High, in Bengaluru. I'm an avid space enthusiast and I also play sports like cricket, table tennis and football. I also like watching movies and reading books a lot. That's all about me :D</p>
+ </p>
+											</div>
+										</div>
+										<div class="content-3">
+											<a href="#"><h3>Vedant Ballal</h3></a>
+											<p>member of CAD & Design Team</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">
+									<div class="team-style-three team-style-block">
+										<div class="team-img-3">
+											<img src="img/team/sachit.jpg" alt="">
+											<div class="social-icon-3">
+												<a href="https://instagram.com/sachit_747?utm_medium=copy_link
+"><i class="fa fa-instagram"></i></a>
+											</div>
+											<div class="hover-content-3">
+												<p>Hello there, my name is Sachit, I'm 15 I live in Mumbai, India. Im in the app development team. I worked on the User Interface in the app team and helped in coding the website. I'm eager to help out and I would like to see this project to the end.I'm also a big fan of aviation and star wars</p>
+											</div>
+										</div>
+										<div class="content-3">
+											<a href="#"><h3>Sachit Bhageria</h3></a>
+											<p>member of the app dev team</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-md-6">
+									<div class="team-style-three team-style-block">
+										<div class="team-img-3">
+											<img src="img/team/manya.jpeg" alt="">
+											<div class="social-icon-3">
+												<a href="https://instagram.com/manya.manjunath?utm_medium=copy_link"><i class="fa fa-instagram"></i></a>
+											</div>
+											<div class="hover-content-3">
+												<p>Hello, my name is Manya I'm 15 I live in Bengaluru, India. Im in the app and website development team and sponsorship team. I worked on the User journey and design in the app team .I'm also a big fan of Greek mythology and norse mythology</p>
+											</div>
+										</div>
+										<div class="content-3">
+											<a href="#"><h3>Manya Manjunatha</h3></a>
+											<p>member of the app dev team </p>
+										</div>
+									</div>
+								</div>
+									<div class="col-lg-3 col-md-6">
+									<div class="team-style-three team-style-block">
+										<div class="team-img-3">
+											<img src="img/team/shwetang.jpg" alt="">
+											<div class="social-icon-3">
+											
+											</div>
+											<div class="hover-content-3">
+												<p>Hi! Iam Shwethang from Nasik, india Iam 13 years old. i worked in app development team.I am a space enthusiast. i want to be a cricketer one day
+</p>
+											</div>
+										</div>
+										<div class="content-3">
+											<a href="#"><h3>Shwetang Chaturvedi</h3></a>
+											<p>member of the app dev team </p>
+										</div>
+									</div>
+								</div>
+							</div>	
+						</div>	
+					</div>	
+				</div>	
+			</div>
+			
+			<div class="tp-divid">
+				<div class="container">
+					<div class="tp-separator">
+						<span class="tp-sep-hldr">
+							<span class="tp-sep-lne">
+							</span>
+						</span>
+					</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div   class="container">
+                    <div  class="row">
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+</div>
+                </div>
+            </div>
+<section>			
+            <footer 1>
+                <div class="footer-top-area-4 pt-80 pb-45">
+                    <div class="footer-top">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                                    <div class="footer-wrapper mb-30">
+                                        <h4 class="footer-text">Contact Us</h4>
+                                        <ul class="footer-link">
+                                            <li>tel:7356022339</li>
+                                            <li>satelliteteam@sserd.org</li>
+                                            <li>Adress:Online</li>
+                                            
+                                        </ul>
+                                        <div class="footer-icon">
+                                            <a href="https://linkedin.com/company/sserd"><i class="fa fa-linkedin"></i></a>
+                                            <a href="https://twitter.com/sserd_org"><i class="fa fa-twitter"></i></a>
+                                            <a href="https://youtube.com/sserd"><i class="fa fa-youtube"></i></a>
+                                            <a href="https://instagram.com/sserd_org"><i class="fa fa-instagram"></i></a>
+                                            <a href="https://facebook.com/sserd.org"><i class="fa fa-facebook"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                                    <div class="footer-wrapper mb-30">
+                                        <ul class="footer-menu">
+
+<li><a href="privacy policy.html"><i class="fa fa-caret-right">	
+</i>
+<h4 style="color:white">Privacy Policy</h4></a></li>
+<h4 class = "footerr-text" style="color:white">QUICK LINKS ! </h4>     
+<li style="color:white"><a  href = "https://www.sserd.org/" >SSERD</a></li>
+                                               <li></li> <li href = "" style="color:white"><a>Report</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                                    <div class="footer-wrapper mb-30">
+            
+                                        <ul class="footers">
+                                
+                                                </div>
+                                                <div class="footer-info">
+                                                </div> 
+                                            <li>
+                                            
+                                                </div>
+                                            </li>
+                                        </ul>									
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="background-image:url(img/footer.jpeg)" class="footer-subscribe">
+                        <div  class="container">
+                            <div class="row">
+                              
+                                <div class="col-xl-6 col-lg-12 col-md-6 col-sm-12">
+                                    <div class="result"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bootom-area-4 pt-40 mt-40">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <div class="copyright">
+                                <p>Copyright © 2021 Delta Cosmos. All Rights Reserved</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                            <ul class="footer-bottom-link">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>	
+        </section> 
+    
+        </section>          
+				 <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+        <script src="js/vendor/jquery-1.12.4.min.js"></script>		  	  				 		 
+        <script src="js/bootstrap.min.js"></script> 	  
+        <script src="js/jquery.slicknav.min.js"></script>			
+        <script src="js/jquery.ripples-min.js"></script>
+        <script src="js/particles.min.js"></script>
+        <script src="js/scrollreveal.min.js"></script>
+        <script src="js/countdown.min.js"></script>
+        <script src="js/tilt.jquery.min.js"></script>
+        <script src="js/typewritter.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/imagesloaded.pkgd.min.js"></script>
+        <script src="js/fancyBox v2.1.5.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <script src="js/slick.js"></script>
+        <script src="js/jquery.barfiller.js"></script>
+        <script src="js/swiper.min.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/jquery.parallax-1.1.3.js"></script>			
+        <script src="js/owl.carousel.min.js"></script>			
+        <script src="js/megapack-main.js"></script>
+        <script src="js/jquery.scrollUp.min.js"></script>
+			</body>
+			</html>
